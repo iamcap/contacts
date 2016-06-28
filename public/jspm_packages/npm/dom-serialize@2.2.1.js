@@ -1,0 +1,1 @@
+module.exports = require("npm:dom-serialize@2.2.1/index.js");

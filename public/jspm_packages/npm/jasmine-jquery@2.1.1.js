@@ -1,0 +1,1 @@
+module.exports = require("npm:jasmine-jquery@2.1.1/lib/jasmine-jquery.js");

@@ -1,0 +1,1 @@
+module.exports = require("npm:brace-expansion@1.1.5/index.js");

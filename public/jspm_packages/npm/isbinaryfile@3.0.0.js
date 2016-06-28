@@ -1,0 +1,1 @@
+module.exports = require("npm:isbinaryfile@3.0.0/index.js");

@@ -1,0 +1,1 @@
+module.exports = require("npm:qjobs@1.1.4/qjobs.js");

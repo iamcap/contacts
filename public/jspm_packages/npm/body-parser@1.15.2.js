@@ -1,0 +1,1 @@
+module.exports = require("npm:body-parser@1.15.2/index");

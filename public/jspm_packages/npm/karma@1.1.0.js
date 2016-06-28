@@ -1,0 +1,1 @@
+module.exports = require("npm:karma@1.1.0/lib/index");

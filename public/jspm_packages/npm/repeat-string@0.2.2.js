@@ -1,0 +1,1 @@
+module.exports = require("npm:repeat-string@0.2.2/index.js");

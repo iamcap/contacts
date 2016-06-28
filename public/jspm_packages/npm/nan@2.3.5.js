@@ -1,0 +1,1 @@
+module.exports = require("npm:nan@2.3.5/include_dirs.js");

@@ -1,0 +1,1 @@
+module.exports = require("npm:ent@2.2.0/index.js");

@@ -1,0 +1,1 @@
+module.exports = require("npm:karma-html2js-preprocessor@1.0.0/lib/index.js");

@@ -1,0 +1,1 @@
+module.exports = require("npm:di@0.0.1/lib/index.js");

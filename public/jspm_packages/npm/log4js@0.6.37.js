@@ -1,0 +1,1 @@
+module.exports = require("npm:log4js@0.6.37/lib/log4js");
