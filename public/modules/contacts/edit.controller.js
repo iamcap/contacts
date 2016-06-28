@@ -12,6 +12,15 @@ class EditController {
         else
             this.$state.go('contacts');
     }
+
+    getInitial() {
+        let initial = '';
+        if (this.profile.firstName||this.profile.lastName) {
+            initial = this.profile.firstName ? this.profile.firstName.substr(0,1) : '';
+            initial += this.profile.lastName ? this.profile.lastName.substr(0,1) : '';
+        }
+        return initial;
+    }
     
     goToDetails() {
         this.$state.go('contacts.details', this.$state.params);

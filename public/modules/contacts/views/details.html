@@ -9,10 +9,10 @@
     </div>
 </div>
 <div ng-show={{details.hasField('phoneNumber')}}>
-    <label>firstName</label><span></span>{{details.profile.phoneNumber}}</div>
+    <label>phoneNumber</label><span></span>{{details.profile.phoneNumber}}</div>
 <div ng-show={{details.hasField('address')}}>
-    <label>firstName</label><span></span>{{details.profile.address}}</div>
+    <label>Address</label><span></span>{{details.profile.address}}</div>
 <div ng-show={{details.hasField('eMail')}}>
-    <label>firstName</label><span></span>{{details.profile.eMail}}</div>
+    <label>Email</label><span></span>{{details.profile.eMail}}</div>
 <edit-dropdown></edit-dropdown>
 <button type="button" ng-click="details.goToEdit()">Edit</button>
