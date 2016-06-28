@@ -1,0 +1,58 @@
+.flex_container {
+    display: flex;}
+
+.nav_container {
+    min-width: 180px;
+    padding: 0px;}
+
+.search_container {
+    padding: 0.5em;}
+
+.name_search {
+    width: 100%;
+    padding-left: 0.5em;}
+
+.list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;}
+
+.list_item {
+    cursor: pointer;}
+
+.contact_item {
+    margin: 1px;
+    padding: 1px;
+    padding-left: 1em;}
+
+.contact_item.active {
+    color: white;
+    background-color: blue;}
+
+.detail_container {
+    border-left: 1px solid black;
+    padding-left: 1em;
+    margin-left: 1em;}
+
+.header_container {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;}
+
+.circle_name {
+    width:60px;
+    height:60px;
+    border-radius:30px;
+    color:white;
+    line-height:60px;
+    text-align:center;
+    background-color: lightgray;}
+
+.name_container {
+    padding-left:0.5em;}
+
+.font_large {
+    font-size: 18px;}
+
+.name_input {
+    width: 7em;}

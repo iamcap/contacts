@@ -1,0 +1,13 @@
+<div class="flex_container">
+    <div class="nav_container">
+        <div class="search_container">
+        <input type="text" ng-model="search" placeholder="Search" class="name_search"/>
+        </div>
+        <ul class="list">
+            <contact-item ng-repeat="profile in list.contacts | filter:search" profile="profile" contact-id="{{$index}}"></contact-item>
+        </ul>
+    </div>
+    <div ui-view class="detail_container">
+        <h3>Select a contact</h3>
+    </div>
+</div>

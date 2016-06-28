@@ -1,0 +1,18 @@
+<div class="header_container">
+    <div class="circle_name">{{details.getInitial()}}</div>
+    <div>
+        <div class="name_container">
+            <span class="font_large">{{details.profile.firstName}}</span>
+            <span class="font_large">{{details.profile.lastName}}</span>
+        </div>
+        <div>{{details.profile.companyName}}</div>
+    </div>
+</div>
+<div ng-show={{details.hasField('phoneNumber')}}>
+    <label>firstName</label><span></span>{{details.profile.phoneNumber}}</div>
+<div ng-show={{details.hasField('address')}}>
+    <label>firstName</label><span></span>{{details.profile.address}}</div>
+<div ng-show={{details.hasField('eMail')}}>
+    <label>firstName</label><span></span>{{details.profile.eMail}}</div>
+<edit-dropdown></edit-dropdown>
+<button type="button" ng-click="details.goToEdit()">Edit</button>

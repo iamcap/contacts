@@ -1,0 +1,26 @@
+<div class="header_container">
+    <div class="circle_name">{{edit.getInitial()}}</div>
+    <div>
+        <div class="name_container">
+            <span><input id='inputFirstName' type=text class="font_large name_input" ng-model="edit.profile.firstName" placeholder="First name"/></span>
+            <span><input id='inputLastName' type=text class="font_large name_input" ng-model="edit.profile.lastName" placeholder="Last name"/></span>
+        </div>
+        <div class="name_container"><input id='inputCompanyName' type=text ng-model="edit.profile.companyName" placeholder="Company"/></div>
+    </div>
+</div>
+
+
+<div>
+    <label>phoneNumber</label>
+    <input id='inputPhoneNumber' type=text ng-model="edit.profile.phoneNumber"/>
+</div>
+<div>
+    <label>address</label>
+    <input id='inputAddress' type=text ng-model="edit.profile.address"/>
+</div>
+<div>
+    <label>email</label>
+    <input id='inputEmail' type=text ng-model="edit.profile.email"/>
+</div>
+<edit-dropdown></edit-dropdown>
+<button type="button" ng-click="edit.goToDetails()">Done</button>

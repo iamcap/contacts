@@ -1,0 +1,13 @@
+    <div class="btn-group" uib-dropdown>
+      <button type="button" uib-dropdown-toggle class="btn" >
+        +
+      </button>
+      <ul class="dropdown-menu" uib-dropdown-menu role="menu">
+        <li role="menuitem" ng-click="editDropdown.createContact()">New Contact</li>
+        <li class="divider"></li>
+        <li>Add field to Card</li>
+        <li role="menuitem" ng-click="editDropdown.editProfile($event)" data-focus-id='inputPhoneNumber'>Phone</li>
+        <li role="menuitem" ng-click="editDropdown.editProfile($event)" data-focus-id='inputEmail'>Email</li>
+        <li role="menuitem" ng-click="editDropdown.editProfile($event)" data-focus-id='inputAddress'>Address</li>
+      </ul>
+    </div>
